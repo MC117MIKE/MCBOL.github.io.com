@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2 em;
+    background-image: url("../Imagenes/Halo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to left red yellow);
+
+}
+#contenedor{
+    width: 90%;
+    margin: 2px auto;
+    background-size: 400px 400px;
+}
+nav a{
+    text-decoration: white;
+    color: white;
+    font-size: 16px;
+}
+nav li{
+    float: left;
+    border: none;
+    width: 10%;
+    padding: 5px 10px;
+    background-color: #ff0000;
+    text-align: center;
+    color: #f8fff4;
+}
+nav li:hover{
+    background-color: #ffee2e;
+    color: #ffffff;
+}
+article{
+    margin-top: 5px;
+    border: 1px solid silver;
+    border-radius: 10px 20px 25px 50px;
+}
+p{
+    padding: 5px 50px;
+}
